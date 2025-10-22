@@ -120,3 +120,5 @@ def adicionar_imagens_ao_pdf(pdf, imagens_base64):
         except Exception as e:
             pdf.set_font("Arial", style='', size=12)
             pdf.cell(0, 10, f"Erro ao adicionar imagem {idx + 1}: {e}", ln=True)
+
+

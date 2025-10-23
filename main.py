@@ -110,7 +110,7 @@ def adicionar_imagens_ao_pdf(pdf, imagens_base64):
 
             # Título acima da imagem
             pdf.set_font("Arial", style='B', size=14)
-            pdf.cell(0, 10, f"Anexo da Avaria {idx + 1}", ln=True, align='C')
+            pdf.cell(0, 10, f"Anexo {idx + 1}", ln=True, align='C')
             pdf.ln(5)
 
             # Inserir imagem (ajustada ao tamanho da página)
